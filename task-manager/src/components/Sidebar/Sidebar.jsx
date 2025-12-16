@@ -52,7 +52,13 @@ function Sidebar() {
             </div>
         </div>
             
-        <div className="bottom"></div>
+        <div className="bottom">
+            <ul>
+                <li>
+                    <span>Sign Out</span>
+                </li>
+            </ul>
+        </div>
     </div>
   )
 }
