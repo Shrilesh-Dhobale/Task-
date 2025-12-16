@@ -28,9 +28,9 @@ function Sidebar() {
                 <li>
                     <span>Sticky Wall</span>
                 </li>
-            </ul>
-            <p className='title'>CATEGORY</p>
-            <ul>
+            
+                <p className='title'>CATEGORY</p>
+            
                 <li>
                     <div className="color"></div>
                     <span>Personal</span>
