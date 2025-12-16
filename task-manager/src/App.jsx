@@ -5,7 +5,7 @@ import Home from './pages/Home/Home.jsx'
 function App() {
   return (
     <div>
-      Hello World
+      <Home />
     </div>
   )
 }
