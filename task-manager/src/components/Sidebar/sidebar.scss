@@ -54,5 +54,14 @@
             margin-bottom:5px;
 
         }
+        li{
+            display:flex;
+            align-items:center;
+            padding:8px;
+            cursor:pointer;
+            border-radius:5px;
+            position: relative;
+            transition: background 0.3s ease;
+        }
     }
 }
