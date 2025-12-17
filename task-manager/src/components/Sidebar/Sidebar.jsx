@@ -1,7 +1,7 @@
 import React from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
-import { SearchOutlined } from '@mui/icons-material';
-import { NavigateNext } from '@mui/icons-material';
+import { SearchOutlined, NavigateNext,Checklist, CalendarMonthOutlined } from '@mui/icons-material';
+
 
 function Sidebar() {
   return (
@@ -15,8 +15,9 @@ function Sidebar() {
             </div>
             <div className="search">
                 <input type="text" placeholder="Search" />
+                <SearchOutlined/>
             </div>
-            <SearchOutlined/>
+            
         </div>
         <div className="center">
             <ul>
@@ -26,9 +27,11 @@ function Sidebar() {
                     <span>Upcoming</span>
                 </li>
                 <li>
+                    <Checklist className='icon'/>
                     <span>Today</span>
                 </li>
                 <li>
+                    <CalendarMonthOutlined className='icon'/>
                     <span>Calender</span>
                 </li>
                 <li>
