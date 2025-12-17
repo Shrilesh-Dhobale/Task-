@@ -46,17 +46,17 @@ function Sidebar() {
                 <p className='title'>CATEGORY</p>
             
                 <li>
-                    <div className="color"></div>
+                    <div className="color" style={{background:"#e74c3c"}}></div>
                     <span>Personal</span>
                     <div className="counter">5</div>
                 </li>
                 <li>
-                    <div className="color"></div>
+                    <div className="color" style={{background:"#3498db"}}></div>
                     <span>Work</span>
                     <div className="counter">5</div>
                 </li>
                 <li>
-                    <div className="color"></div>
+                    <div className="color" style={{background:"#f1c40f"}}></div>
                     <span>Others</span>
                     <div className="counter">5</div>
                 </li>
