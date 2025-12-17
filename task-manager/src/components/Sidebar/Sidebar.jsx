@@ -63,11 +63,11 @@ function Sidebar() {
             </ul>
             <p className='title'>TAGS</p>
             <div className="tags">
-                <div className="tag">
-                    <span>Urgent</span>
+                <div className="tag" style={{backgroundColor:"blue"}}>
+                    <span style={{color:"white"}}>Urgent</span>
                 </div>
-                <div className="tag">
-                    <span>New</span>
+                <div className="tag" style={{backgroundColor:"red"}}>
+                    <span style={{color:"white"}}>New</span>
                 </div>
                 <div className="tag add-tag">
                     <input type="text" placeholder="New Add Tag" />
