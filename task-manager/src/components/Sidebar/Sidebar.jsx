@@ -1,5 +1,7 @@
 import React from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
+import { SearchOutlined } from '@mui/icons-material';
+import { NavigateNext } from '@mui/icons-material';
 
 function Sidebar() {
   return (
@@ -14,11 +16,13 @@ function Sidebar() {
             <div className="search">
                 <input type="text" placeholder="Search" />
             </div>
+            <SearchOutlined/>
         </div>
         <div className="center">
             <ul>
                 <p className="title">TASK</p>
                 <li>
+                    <NavigateNext className='icon'/>
                     <span>Upcoming</span>
                 </li>
                 <li>
