@@ -1,6 +1,6 @@
 import React from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
-import { SearchOutlined, NavigateNext,Checklist, CalendarMonthOutlined } from '@mui/icons-material';
+import { SearchOutlined, NavigateNext,Checklist, CalendarMonthOutlined, StickyNote2,Logout } from '@mui/icons-material';
 
 
 function Sidebar() {
@@ -35,6 +35,7 @@ function Sidebar() {
                     <span>Calender</span>
                 </li>
                 <li>
+                    <StickyNote2 className='icon'/>
                     <span>Sticky Wall</span>
                 </li>
             
@@ -64,6 +65,7 @@ function Sidebar() {
         <div className="bottom">
             <ul>
                 <li>
+                    <Logout className='icon'/>
                     <span>Sign Out</span>
                 </li>
             </ul>
