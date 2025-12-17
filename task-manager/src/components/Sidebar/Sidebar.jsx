@@ -1,11 +1,12 @@
 import React from 'react'
+import './sidebar.scss'
 import MenuIcon from '@mui/icons-material/Menu';
 import { SearchOutlined, NavigateNext,Checklist, CalendarMonthOutlined, StickyNote2,Logout } from '@mui/icons-material';
 
 
 function Sidebar() {
   return (
-    <div>
+    <div className='sidebar'>
         <div className="top">
             <div className="menu">
                 <span className="menu-title">
