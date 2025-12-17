@@ -69,8 +69,14 @@ function Sidebar() {
                 <div className="tag" style={{backgroundColor:"red"}}>
                     <span style={{color:"white"}}>New</span>
                 </div>
-                <div className="tag add-tag">
-                    <input type="text" placeholder="New Add Tag" />
+                <div className="tag add-tag" >
+                    <input type="text" placeholder="New Add Tag" style={{
+                        border:"none",
+                        background:"transparent",
+                        outline:"none",
+                        color:"#333"
+                    }} />
+                    
                 </div>
             </div>
         </div>
