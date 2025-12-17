@@ -1,4 +1,5 @@
 import React from 'react'
+import MenuIcon from '@mui/icons-material/Menu';
 
 function Sidebar() {
   return (
@@ -8,6 +9,7 @@ function Sidebar() {
                 <span className="menu-title">
                     Menu
                 </span>
+                <MenuIcon />
             </div>
             <div className="search">
                 <input type="text" placeholder="Search" />
