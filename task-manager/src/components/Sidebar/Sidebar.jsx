@@ -22,7 +22,7 @@ function Sidebar() {
         </div>
         <div className="center">
             <ul>
-                <p className="title">TASK</p>
+                <p className="title">TASKS</p>
                 <li>
                     <NavigateNext className='icon'/>
                     <span>Upcoming</span>
@@ -63,6 +63,12 @@ function Sidebar() {
             </ul>
             <p className='title'>TAGS</p>
             <div className="tags">
+                <div className="tag">
+                    <span>Urgent</span>
+                </div>
+                <div className="tag">
+                    <span>New</span>
+                </div>
                 <div className="tag add-tag">
                     <input type="text" placeholder="New Add Tag" />
                 </div>

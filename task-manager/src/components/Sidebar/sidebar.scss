@@ -48,14 +48,7 @@
         list-style:none;
         padding:0;
         margin:0;
-        .title{
-            font-size:12px;
-            font-weight:bold;
-            color:#666;
-            margin-top:15px;
-            margin-bottom:5px;
-
-        }
+        
         li{
             display:flex;
             align-items:center;
@@ -100,5 +93,14 @@
             }
         }
     }
+     .title{
+            font-size:12px;
+            font-weight:bold;
+            color:#666;
+            margin-top:15px;
+            margin-bottom:5px;
+
+        }
     }
+   
 }
