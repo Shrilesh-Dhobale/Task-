@@ -26,14 +26,17 @@ function Sidebar() {
                 <li>
                     <NavigateNext className='icon'/>
                     <span>Upcoming</span>
+                    <div className="counter">5</div>
                 </li>
                 <li>
                     <Checklist className='icon'/>
                     <span>Today</span>
+                    <div className="counter">5</div>
                 </li>
                 <li>
                     <CalendarMonthOutlined className='icon'/>
                     <span>Calender</span>
+                    <div className="counter">5</div>
                 </li>
                 <li>
                     <StickyNote2 className='icon'/>
@@ -45,14 +48,17 @@ function Sidebar() {
                 <li>
                     <div className="color"></div>
                     <span>Personal</span>
+                    <div className="counter">5</div>
                 </li>
                 <li>
                     <div className="color"></div>
                     <span>Work</span>
+                    <div className="counter">5</div>
                 </li>
                 <li>
                     <div className="color"></div>
                     <span>Others</span>
+                    <div className="counter">5</div>
                 </li>
             </ul>
             <p className='title'>TAGS</p>
