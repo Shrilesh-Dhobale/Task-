@@ -20,5 +20,13 @@
                 color:#444;
             }
         }
+        .search{
+            display:flex;
+            align-items:center;
+            border:1px solid #ccc;
+            border-radius:5px;
+            padding:6px;
+            background-color:#f4f4f4
+        }
     }
 }
