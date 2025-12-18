@@ -97,7 +97,13 @@
                     justify-content: center;
                     gap:5px;
                     padding-right:10px ;
-
+                    .color{
+                        height:12px;
+                        width:12px;
+                        border-radius:3px;
+                        border:none;
+                        background-color: red;
+                    }
                 }
             }
         }

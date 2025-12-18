@@ -53,7 +53,7 @@ function Today() {
                                 <p>Subtasks</p>
                             </div>
                             <div className="right">
-                                <span></span>
+                                <span className='color'></span>
                                 <p>{task.category}</p>
                             </div>
                         </div>
