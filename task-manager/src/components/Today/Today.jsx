@@ -1,6 +1,34 @@
 import React from 'react'
 import './today.scss'
-import {Add, NavigateNext} from "@mui/icons-material";
+import {Add, Category, NavigateNext} from "@mui/icons-material";
+
+const tasks=[
+    {
+        id:"task1",
+        title:"Research about React.js",
+        date:"2024-06-20",
+        category:"Personal"
+    },
+    {
+        id:"task2",
+        title:"Finish your backend project",
+        date:"2024-06-20",
+        category:"Work"
+    },
+    {
+        id:"task3",
+        title:"Finish your backend project",
+        date:"2024-06-20",
+        category:"Others"
+    },
+    {
+        id:"task4",
+        title:"Finish your backend project",
+        date:"2024-06-20",
+        category:"Personal"
+    }
+
+]
 
 function Today() {
   return (
@@ -11,26 +39,14 @@ function Today() {
                 <Add/>
                 <span style={{marginLeft:"10px"}}>Add Task</span>
             </li>
-            <li>
-                <input type="checkbox" id=""/>
-                <label htmlFor="">Finish your backend project</label>
-                <NavigateNext/>
-            </li>
-            <li>
-                <input type="checkbox" id=""/>
-                <label htmlFor="">Finish your backend project</label>
-                <NavigateNext/>
-            </li>
-            <li>
-                <input type="checkbox" id=""/>
-                <label htmlFor="">Finish your backend project</label>
-                <NavigateNext/>
-            </li>
-            <li>
-                <input type="checkbox" id=""/>
-                <label htmlFor="">Finish your backend project</label>
-                <NavigateNext/>
-            </li>
+            {tasks.map((task)=>(
+                <li key={task.id}>
+                    <input type="checkbox" id={task.id}/>
+                    <label>{task.title}</label>
+                    <NavigateNext/>
+                </li>
+            ))}
+           
         </ul>
       
     </div>
