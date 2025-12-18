@@ -42,7 +42,13 @@ function Today() {
             {tasks.map((task)=>(
                 <li key={task.id}>
                     <input type="checkbox" id={task.id}/>
-                    <label>{task.title}</label>
+                    <label>{task.title}
+                        <div className="details">
+                            <div className="left"></div>
+                            <div className="center"></div>
+                            <div className="right"></div>
+                        </div>
+                    </label>
                     <NavigateNext/>
                 </li>
             ))}
