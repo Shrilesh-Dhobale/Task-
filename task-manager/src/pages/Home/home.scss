@@ -5,5 +5,10 @@
         flex:6;
         background-color: #f8f9fa;
         padding:10px 20px;
+        .upcoming-title{
+            display: flex;
+            align-items: center;
+            padding:10px;
+        }
     }
 }

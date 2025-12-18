@@ -11,6 +11,12 @@ function Home() {
           <p>Upcoming</p>
           <span>12</span>
         </div>
+
+        <div className="home-top"></div>
+        <div className="home-bottom">
+          <div className="home-left"></div>
+          <div className="home-right"></div>
+        </div>
       </div>
     </div>
   )
