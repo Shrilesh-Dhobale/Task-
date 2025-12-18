@@ -7,7 +7,10 @@ function Home() {
     <div className='home'>
       <Sidebar />
       <div className="homeContainer">
-        Home
+        <div className="upcoming-title">
+          <p>Upcoming</p>
+          <span>12</span>
+        </div>
       </div>
     </div>
   )
