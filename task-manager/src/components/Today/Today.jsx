@@ -11,6 +11,10 @@ function Today() {
                 <Add/>
                 <span style={{marginLeft:"10px"}}>Add Task</span>
             </li>
+            <li>
+                <input type="checkbox" id=""/>
+                <label htmlFor="">Finish your backend project</label>
+            </li>
         </ul>
       
     </div>
