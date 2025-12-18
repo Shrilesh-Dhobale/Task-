@@ -44,7 +44,10 @@ function Today() {
                     <input type="checkbox" id={task.id}/>
                     <label>{task.title}
                         <div className="details">
-                            <div className="left"></div>
+                            <div className="left">
+                                <TodayOutlined className='icon'/>
+                                <p>{task.date}</p>
+                            </div>
                             <div className="center"></div>
                             <div className="right"></div>
                         </div>
