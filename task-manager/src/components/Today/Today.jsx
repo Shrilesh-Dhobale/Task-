@@ -1,6 +1,6 @@
 import React from 'react'
 import './today.scss'
-import {Add} from "@mui/icons-material";
+import {Add, NavigateNext} from "@mui/icons-material";
 
 function Today() {
   return (
@@ -14,18 +14,22 @@ function Today() {
             <li>
                 <input type="checkbox" id=""/>
                 <label htmlFor="">Finish your backend project</label>
+                <NavigateNext/>
             </li>
             <li>
                 <input type="checkbox" id=""/>
                 <label htmlFor="">Finish your backend project</label>
+                <NavigateNext/>
             </li>
             <li>
                 <input type="checkbox" id=""/>
                 <label htmlFor="">Finish your backend project</label>
+                <NavigateNext/>
             </li>
             <li>
                 <input type="checkbox" id=""/>
                 <label htmlFor="">Finish your backend project</label>
+                <NavigateNext/>
             </li>
         </ul>
       
