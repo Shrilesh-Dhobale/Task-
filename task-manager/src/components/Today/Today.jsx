@@ -48,7 +48,10 @@ function Today() {
                                 <TodayOutlined className='icon'/>
                                 <p>{task.date}</p>
                             </div>
-                            <div className="center"></div>
+                            <div className="center">
+                                <span>2</span>
+                                <p>Subtasks</p>
+                            </div>
                             <div className="right"></div>
                         </div>
                     </label>
