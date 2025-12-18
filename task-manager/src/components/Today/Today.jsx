@@ -53,7 +53,9 @@ function Today() {
                                 <p>Subtasks</p>
                             </div>
                             <div className="right">
-                                <span className='color'></span>
+                                <span className='color' 
+                                style={{backgroundColor:task.category==="Personal"?"#e74c3c":task.category==="Work"?"#3498db":"#f1c40f"}}>
+                                </span>
                                 <p>{task.category}</p>
                             </div>
                         </div>
