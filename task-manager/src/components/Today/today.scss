@@ -66,6 +66,16 @@
                         font-size:12px;
                     }
                 }
+                .center{
+                    display:flex;
+                    align-items: center;
+                    justify-content: center;
+                    border:1px solid #888;
+                    gap:5px;
+                    padding-right: 10px;
+
+                    
+                }
             }
         }
 
