@@ -9,6 +9,7 @@ function Today() {
         <ul>
             <li style={{borderLeft:"1px solid #e6e6e6"}}>   
                 <Add/>
+                <span style={{marginLeft:"10px"}}>Add Task</span>
             </li>
         </ul>
       
