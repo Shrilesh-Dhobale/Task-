@@ -1,6 +1,6 @@
 import React from 'react'
 import './today.scss'
-import {Add, Category, NavigateNext} from "@mui/icons-material";
+import {Add, Category, NavigateNext,TodayOutlined} from "@mui/icons-material";
 
 const tasks=[
     {
@@ -52,7 +52,10 @@ function Today() {
                                 <span>2</span>
                                 <p>Subtasks</p>
                             </div>
-                            <div className="right"></div>
+                            <div className="right">
+                                <span></span>
+                                <p>{task.category}</p>
+                            </div>
                         </div>
                     </label>
                     <NavigateNext/>
